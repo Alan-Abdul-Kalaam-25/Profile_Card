@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width:100%;
+    min-height:100vh;
+    background-color:#212121;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.profile-card{
+    width:90%;
+    max-width:450px;
+    text-align:center;
+    background-color:#ffffff;
+    color:#333333;
+    /*position:relative;*/
+}
+
+.cover-pic{
+    display:block;
+    width:100%;
+}
+
+#profileImgBx{
+    background-image:url('Images/profile_img.jpg');
+    background-size:cover;
+    background-position:top;
+    height:140px;
+    width:140px;
+    border-radius:50%;
+    position:relative;
+    bottom:70px;
+    margin-bottom:-60px;
+    box-shadow:0px 0px 0px 0px #ff004f;
+    transition:box-shadow 0.5s;
+}
+
+#profileImgBx:hover{
+    box-shadow:0px 0px 0px 5px #ff004f;
+}
+
+.profile-card h1{
+    font-weight:600;
+}
+
+.follow-btn{
+    display:inline-block;
+    text-decoration:none;
+    border:1px solid #ff004f;
+    color:#555555;
+    padding:6px 35px;
+    margin:25px 0px;
+}
+
+.follow-btn:hover{
+    background-color:#ff004f;
+    color:white;
+}
+
+.row{
+    display:flex;
+    justify-content:space-around;
+}
+
+.row h2{
+    font-weight:500;
+    font-size:30px;
+}
+
+.view-btn{
+    display:inline-block;
+    text-decoration:none;
+    background-color:#ff004f;
+    color:#ffffff;
+    width:100%;
+    padding:15px 0px;
+    margin-top:20px;
+}
+
+.view-btn:hover{
+    background-color:#ffffff;
+    border:2px solid #ff004f;
+    color:#ff004f;
+}
