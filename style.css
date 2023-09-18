@@ -31,7 +31,7 @@
 }
 
 #profileImgBx{
-    background-image:url('Images/profile_img.jpg');
+    background-image:url('profile_img.jpg');
     background-size:cover;
     background-position:top;
     height:140px;
