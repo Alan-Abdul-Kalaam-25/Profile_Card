@@ -22,7 +22,7 @@
     text-align:center;
     background-color:#ffffff;
     color:#333333;
-    /*position:relative;*/
+    border-radius:25px;
 }
 
 .cover-pic{
